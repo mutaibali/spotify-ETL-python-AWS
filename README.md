@@ -7,6 +7,8 @@ This project implements an **ETL (Extract, Transform, Load) pipeline** that extr
 ## Architecture Overview
 
 The architecture follows the ETL pattern:
+![image](https://github.com/user-attachments/assets/4d774803-05be-4d3d-be6e-86cf1ed95248)
+
 
 ### Extract
 - **AWS Lambda** is triggered daily by **Amazon CloudWatch** to extract data from the **Spotify API**.
